@@ -12,13 +12,13 @@
 ### Executar o aplicativo
 `> go run megasena.go data.go`
 ### Facilidades oferecidas
-> 1: Gerar dicas de apostas para a Mega-sena
-> 2: Aplicar filtros na geração das dicas
-> 3: Selecionar dicas para as apostas
-> 4: Arquivar as dicas selecionadas
-> 5: Recuperar as dicas arquivadas
-> 6: Conferir os acertos das apostas (dicas selecionadas)
-> OBS: nenhuma verificação de erro é feita
+- Gerar dicas de apostas para a Mega-sena
+- Aplicar filtros na geração das dicas
+- Selecionar dicas para as apostas
+- Arquivar as dicas selecionadas
+- Recuperar as dicas arquivadas
+- Conferir os acertos das apostas (dicas selecionadas)
+- NOTA: nenhuma verificação de erro é feita
 ### Captura de tela
 ![Mega-sena](./megasena/megasena.png)
 ### Modo de usar
@@ -37,24 +37,26 @@
 - *Dica*: apresenta a dica gerada.
 - *Dicas selecionadas*: lista as dicas escolhidas para a aposta.
 #### Botões de comando
-1) *Gerar Dica* - gera uma dica de acordo com as especificações.
-2) *Selecionar* - acrescenta a dica na lista de dicas selecionadas.
-3) *Limpar* - limpa os campos, exceto o _Dicas selecionadas_.
+- *Gerar Dica* - gera uma dica de acordo com as especificações.
+- *Selecionar* - acrescenta a dica na lista de dicas selecionadas.
+- *Limpar* - limpa os campos, exceto o _Dicas selecionadas_.
 #### Menu Arquivo
-1) *Abrir* - abre um arquivo com dicas selecionadas;
-2) *Salvar* - grava as dicas selecionadas em arquivo, para conferência posterior;
-3) *Conferir* - abre uma janela para conferir as dicas selecionadas com o resultado do sorteio;
-4) *Quit* - sair do programa.
+- *Abrir* - abre um arquivo com dicas selecionadas;
+- *Salvar* - grava as dicas selecionadas em arquivo, para conferência posterior;
+- *Conferir* - abre uma janela para conferir as dicas selecionadas com o resultado do sorteio;
+- *Quit* - sair do programa.
 #### Melhorias futuras
 - Versão para Android
 - Aba para gerar os cartões, garantindo um acerto na Quadra ou na Quina.
 ### Tabela de Prêmios da Megasena
-> Para gerar a tabela de prêmios pagos pela Mega-sena:
+- Para gerar a tabela de prêmios pagos pela Mega-sena:
 `> go run tab-cef.go`
 
 ## Projeto Calcomb
-- Aprendizado básico de Golang e Fyne.
-- Apresenta uma simples IU para calcular nCr e nPr.
+- Aprendizado básico de Golang e Fyne. Apresenta uma simples IU para calcular nCr e nPr.
+### Executar o aplicativo
+`> go run calcomb.go tbicons.go`
+### Captura de Tela
 ![Calcomb](./calcomb/calcomb.png)
 
 ## Agradecimentos
